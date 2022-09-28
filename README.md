@@ -7,17 +7,28 @@ As a new Java developer, you will be required to familiarize yourself with exist
     * Variables
 * Using Java terminology, break down every piece of the method **convertF2K**.
     * What is the access modifier?
+      * The access modifier is Public.
     * Is it a class or object method, how do you know?
+      * This is an object method because it is not using the class keyword and is not a constructor since it does not use the same name as the class name.
     * What is its return type?
+      * The Return type of this method is a double.
     * What parameters does it require, and what are the parameter(s) datatype(s)?
+      * This method has the parameter of a single double.
     * Describe for me how the body of the method executes (i.e. its flow of execution).
+      * The only thing that this method is doing is returning the double of what the input would be if it was converted from Fahrenheit to Celsius.
 * Using Java terminology, break down method **getUnitChoice**.
     * What is the access modifier?
+      * The access modifier is Public.
     * Is it a class or object method, how do you know?
+      * This is an object method because it is not using the class keyword and is not a constructor since it does not use the same name as the class name.
     * What is its return type?
+      * The return type of this method is a String.
     * What parameters does it require, and what are the parameter(s) datatype(s)?
+      * This method has no parameters.
     * Describe for me how the body of the method executes (i.e. its flow of execution).
+      * This method prompts the user for an input that will change what method will be used to change the temperature.
     * How do the format specifiers differ than what you've seen before and what do they do?
+      * The only new format specifier that I can see is %xs where x is an integer. From what I can tell, this will put x amount of spaces before or after a String where -x will put x spaces after the String and x will put x spaces before the String.
 
 ## Part 2: - Implement Missing Method: convertK2F
 This Part is aimed at teaching you to use methods and code you have to add new functionality to existing code. In this case you will add the missing conversion method, but you don't need to know math :-)
